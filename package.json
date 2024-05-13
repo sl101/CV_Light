@@ -1,15 +1,15 @@
 {
   "name": "three_js",
   "private": true,
-	"homepage": "https://sl101.github.io/CV_Light",
+  "homepage": "https://sl101.github.io/CV_Light",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-		"predeploy" : "vite build",
-		"deploy" : "gh-pages -d dist"
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -18,7 +18,8 @@
     "@react-three/fiber": "^8.16.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0"
+    "react-router-dom": "^6.23.0",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
