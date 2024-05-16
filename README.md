@@ -1,1 +1,1 @@
-## [open resume](https://sl101.github.io/CV_Light)
+## [open resume](https://cv-light-sl102s-projects.vercel.app/projects)
