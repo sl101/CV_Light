@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber"
 import { Suspense, useState } from "react"
 import Loader from "../components/Loader"
-import { Bird, Island, Plane, Sky } from "../models";
+import { Bird, Island, Plane, Sky, TestScene } from "../models";
 import { HomeInfo } from "../components";
 
 
@@ -71,6 +71,7 @@ const Home = () => {
 					<Bird />
 					<Sky isRotating={isRotating} />
 					<Island
+						//<TestScene
 						isRotating={isRotating}
 						setIsRotating={setIsRotating}
 						setCurrentStage={setCurrentStage}
